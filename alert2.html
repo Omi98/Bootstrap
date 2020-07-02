@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Webpage</title>
+        <style>
+            .alert {
+              position: relative;
+              padding: 0.75rem 1.25rem;
+              margin-bottom: 1rem;
+              border: 1px solid transparent;
+              border-radius: 0.25rem;
+            }
+
+            .alert-success {
+              color: #155724;
+              background-color: #d4edda;
+              border-color: #c3e6cb;
+            }
+
+            .alert-heading {
+              color: inherit;
+            }
+
+            .alert-success hr {
+              border-top-color: #b1dfbb;
+            }
+
+            .mb-0,
+            .my-0 {
+              margin-bottom: 0 !important;
+            }
+
+            h4 {
+              font-size: 1.5rem;
+              margin-top: 0;
+              margin-bottom: 0.5rem;
+            }
+
+            hr {
+              box-sizing: content-box;
+              height: 0;
+              overflow: visible;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- simple alert -->
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>
+                Aww yeah, you successfully read this important alert message.
+                This example text is going to run a bit longer so that you can
+                see how spacing within an alert works with this kind of content.
+            </p>
+            <hr>
+            <p class="mb-0">
+                Whenever you need to, be sure to use margin utilities to keep
+                things nice and tidy.
+            </p>
+        </div>
+    </body>
+</html>
