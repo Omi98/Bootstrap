@@ -15,7 +15,7 @@
     <style>
       [class*="col"] {
         padding: 1rem 0;
-        background-color: #33b5e5;
+        background-color: #7d3c98;
         border: 2px solid #fff;
         color: #fff;
       }
@@ -23,14 +23,19 @@
   </head>
   <body>
     <div class="container border">
-      <h1>3 Equal Width Columns</h1>
+      <h1>Auto-layout columns</h1>
       <br />
-      <p></p>
+      <p>Setting one column width</p>
       <div class="container text-center">
         <div class="row">
-          <div class="col">Column</div>
-          <div class="col">Column</div>
-          <div class="col">Column</div>
+          <div class="col">1 of 3</div>
+          <div class="col-6">2 of 3 (wider)</div>
+          <div class="col">3 of 3</div>
+        </div>
+        <div class="row">
+          <div class="col">1 of 3</div>
+          <div class="col-5">2 of 3 (wider)</div>
+          <div class="col">3 of 3</div>
         </div>
       </div>
     </div>
